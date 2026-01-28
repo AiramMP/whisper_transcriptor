@@ -13,7 +13,7 @@ archivo_audio = r"C:\Users\TP647EP\Videos\2026-01-27 11-33-12.mp4"
 # Transcribir (forzamos español; si en la call hay inglés también, podemos quitar language)
 resultado = model.transcribe(archivo_audio, language="Spanish")
 
-# Guardar la transcripción en un .txt
+# Guardar la transcripción en un .txt 
 ruta_salida = r"C:\Users\TP647EP\Downloads\Sandbox.txt"
 
 with open(ruta_salida, "w", encoding="utf-8") as f:
