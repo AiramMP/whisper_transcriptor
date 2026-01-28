@@ -1,6 +1,6 @@
 import whisper
 
-# Cargar el modelo
+# Cargar el modelo prueba
 # Opciones de modelo: "tiny", "base", "small", "medium", "large"
 # - tiny/base  -> rápidos pero menos precisos
 # - small      -> buena calidad y razonable en CPU (recomendado para ti)
